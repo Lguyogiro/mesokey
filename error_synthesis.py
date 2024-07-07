@@ -43,12 +43,12 @@ def deletion(txt):
         # add the sentence with added noise to list of noisy sentences
         noisy_sents.append(noisy_sent)
     # print list of noisy sentences
-    print("deletion error:", noisy_sents)
+    #print("deletion error:", noisy_sents)
 
     # return list with noisy sentences
     return noisy_sents
 
-deletion(quc_sent_sample) 
+#deletion(quc_sent_sample) 
 
 def insertion(txt, char_list):
     '''
@@ -67,12 +67,12 @@ def insertion(txt, char_list):
         # append list with noise to noisy sentence list
         noisy_sents.append(noisy_sent)
     # print list of noisy sentences
-    print("insertion errors:", noisy_sents)
+    #print("insertion errors:", noisy_sents)
 
     # return list with noisy sentences
     return noisy_sents
 
-insertion(quc_sent_sample, quc_char_list)
+#insertion(quc_sent_sample, quc_char_list)
 
 def transposition(txt):
     '''
@@ -100,12 +100,12 @@ def transposition(txt):
         # add noisy sentence to list 
         noisy_sents.append(noisy_sent)
     # print list of noisy sentences
-    print("transposition errors:", noisy_sents)
+    #print("transposition errors:", noisy_sents)
 
     # return list of noisy sentences
     return noisy_sents
 
-transposition(quc_sent_sample)
+#transposition(quc_sent_sample)
 
 def random_substitution(txt, char_list):
     '''
@@ -129,11 +129,11 @@ def random_substitution(txt, char_list):
         # add sentence with noise to the list of noisy sentences
         noisy_sents.append(noisy_sent)
     # print list of noisy sentences
-    print("random substitution errors:", noisy_sents)
+    #print("random substitution errors:", noisy_sents)
     # return list of noisy sentences
     return noisy_sents
 
-random_substitution(quc_sent_sample, quc_char_list)
+#random_substitution(quc_sent_sample, quc_char_list)
 
 def word_fussing(txt):
     '''
@@ -153,12 +153,12 @@ def word_fussing(txt):
         # append sentence with noise to list
         noisy_sents.append(noisy_sent)
     # print list of noisy sentences
-    print("word fussing errors:", noisy_sents)
+    #print("word fussing errors:", noisy_sents)
 
     # return list of noisy sentences
     return noisy_sents
 
-word_fussing(quc_sent_sample)
+#word_fussing(quc_sent_sample)
 
 def word_splitting(txt):
     '''
@@ -185,9 +185,9 @@ def word_splitting(txt):
         # append list with noise to list
         noisy_sents.append(noisy_sent)
     # print list of noisy sentences
-    print("word splitting errors:", noisy_sents)
+    #print("word splitting errors:", noisy_sents)
 
     # return list of noisy sentences
     return noisy_sents
 
-word_splitting(quc_sent_sample)
+#word_splitting(quc_sent_sample)
